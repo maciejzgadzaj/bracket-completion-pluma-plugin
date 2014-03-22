@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-#  bracketcompletion.py - Bracket completion plugin for gedit
+#  bracketcompletion.py - Bracket completion plugin for pluma
 #  
 #  Copyright (C) 2006 - Steve Frécinaux
 #  
@@ -19,7 +19,7 @@
 #  Foundation, Inc., 59 Temple Place, Suite 330,
 #  Boston, MA 02111-1307, USA.
 
-import gedit
+import pluma
 import gtk
 from gtk import gdk
 
@@ -309,7 +309,7 @@ class BracketCompletionViewHelper(object):
     def on_delete_range(self, doc, start, end):
         self._stack = []
 
-class BracketCompletionPlugin(gedit.Plugin):
+class BracketCompletionPlugin(pluma.Plugin):
     WINDOW_DATA_KEY = "BracketCompletionPluginWindowData"
     VIEW_DATA_KEY = "BracketCompletionPluginViewData"
 

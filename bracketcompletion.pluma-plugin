@@ -1,4 +1,4 @@
-[Gedit Plugin]
+[Pluma Plugin]
 Loader=python
 Module=bracketcompletion
 IAge=2
@@ -84,7 +84,7 @@ Description[te]=మూసివేత బ్రాకెట్లను స్�
 Description[th]=เติมวงเล็บปิดโดยอัตโนมัติ
 Description[vi]=Tự động thêm dấu ngoặc đóng.
 Description[zh_CN]=自动添加右括号。
-Icon=gedit-plugin
+Icon=pluma-plugin
 Authors=Steve Frécinaux <steve@istique.net>
 Copyright=Copyright @ 2006 Steve Frécinaux
 Website=http://www.gedit.org
